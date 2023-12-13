@@ -7,7 +7,7 @@ else:
         if num%i==0:
             print(num,"is not Prime number")
             break
-        else:
-            print(num,"is Prime number")
-            break
+    else:
+        print(num,"is Prime number")
+            
 
