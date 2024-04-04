@@ -1,0 +1,22 @@
+#Date-04/02/2024
+#taking input from console
+name=input("Enter your name:");
+print("Hello ",name)
+print(len(name))
+
+#Sum of two number
+a,b=int(input("Enter two number:")),int(input("Enter two number:"))
+print(a,"+",b,"=",a+b)
+
+#takin input from user and store in list and then print from their index
+l=eval(input("Enter fruits name:"))
+print("Third fruit in the list is:",l[2])
+
+# different list functions
+l=[10,20,50,40,30,60,70,80,90,100]
+l.append(11) #append 11 at last index
+l.insert(5,13)#insert 13 at index 5
+l.remove(13)#remove 13 from list
+l.pop(5)#remove last element by default and remove element by index
+l.sort()
+print(l)
