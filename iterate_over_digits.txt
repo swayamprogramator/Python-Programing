@@ -1,0 +1,3 @@
+x = 78912
+for digit in str(x):
+   print(int(digit))
