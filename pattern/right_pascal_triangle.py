@@ -13,8 +13,5 @@ def pattern(n):
          print("* ",end="")
       print("\r")
  
-# take inputs
 n = int(input('Enter the number of rows: '))
-
-# calling function
 pattern(n)
