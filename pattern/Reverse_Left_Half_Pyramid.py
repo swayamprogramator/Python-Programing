@@ -1,6 +1,6 @@
 def pattern(n):
    for i in range(n):
-      for j in range(n-i-1):
+      for j in range(n-i):
          # printing stars
          print("* ",end="")
       print(" ")
