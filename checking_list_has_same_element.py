@@ -15,11 +15,6 @@ def check_elements(l):
         print("No, all elements are not equal.")            
 
 
-# take list
 my_list = ['Know Program', 'Know Program', 'Know Program']
-
-# printing list
 print('List:', my_list)
-
-# calling function
 check_elements(my_list)
