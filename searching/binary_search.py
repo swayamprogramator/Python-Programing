@@ -1,4 +1,4 @@
-def BinarySearch(arr, low, high, key):  #user-defined function
+def BinarySearch(arr, low, high, key):  
     if high >= low:  #check base case
         mid = (high + low) // 2
         if (arr[mid] == key):
@@ -10,13 +10,11 @@ def BinarySearch(arr, low, high, key):  #user-defined function
     else:
         return -1
 
-arr = [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]  #array
-key = 40  #search key
+arr = [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+key = 40  
 
-# calling function
 result = BinarySearch(arr, 0, len(arr)-1, key)
 
-# display result
 if result != -1:
     print(key, "Found at index", str(result))
 else:
