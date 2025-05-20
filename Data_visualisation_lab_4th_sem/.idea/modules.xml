@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Data_visualisation_lab_4th_sem.iml" filepath="$PROJECT_DIR$/.idea/Data_visualisation_lab_4th_sem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Machine-Learning/.idea/Machine-Learning.iml" filepath="$PROJECT_DIR$/../../Machine-Learning/.idea/Machine-Learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../computer_vision/.idea/computer_vision.iml" filepath="$PROJECT_DIR$/../../computer_vision/.idea/computer_vision.iml" />
     </modules>
   </component>

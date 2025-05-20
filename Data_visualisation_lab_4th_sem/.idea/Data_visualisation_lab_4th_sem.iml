@@ -5,5 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="computer_vision" />
+    <orderEntry type="module" module-name="Machine-Learning" />
   </component>
 </module>
